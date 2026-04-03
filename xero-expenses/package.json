@@ -1,0 +1,17 @@
+{
+  "name": "xero-expense-workflow",
+  "version": "1.0.0",
+  "description": "Expense approval workflow using Xero Invoices (ACCPAY) API",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "xero-node": "^6.3.0"
+  }
+}
